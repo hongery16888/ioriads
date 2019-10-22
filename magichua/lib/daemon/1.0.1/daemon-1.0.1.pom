@@ -3,10 +3,22 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>magichua.lib</groupId>
-  <artifactId>aar</artifactId>
-  <version>1.3.1</version>
+  <artifactId>daemon</artifactId>
+  <version>1.0.1</version>
   <packaging>aar</packaging>
   <dependencies>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>+</version>
+      <scope>compile</scope>
+    </dependency>
     <dependency>
       <groupId>com.android.support</groupId>
       <artifactId>appcompat-v7</artifactId>
@@ -41,12 +53,6 @@
       <groupId>com.facebook.android</groupId>
       <artifactId>audience-network-sdk</artifactId>
       <version>5.5.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.xdandroid</groupId>
-      <artifactId>hellodaemon</artifactId>
-      <version>+</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
